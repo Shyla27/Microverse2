@@ -1,0 +1,39 @@
+
+body{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navigationbar  {
+    overflow: hidden;
+    background-color: darkgrey;
+    position: relative;
+
+
+}
+.navigationbar a {
+    float: left;
+    text-align: center;
+    padding: 16px 14px;
+    text-decoration: none;
+    color: darkcyan;
+    font-size: 17px;
+}
+.navigationbar a.active {
+    background-color: darkslategray;
+    color: whitesmoke;
+}
+main{
+    background-color: black;
+}
+.Mdescription{
+    text-align: center;
+    font-size: 21px;
+    color: white;
+    padding-top:4em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 4em;
+
+}
+span.web{ color: red;}
